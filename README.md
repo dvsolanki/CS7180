@@ -11,6 +11,9 @@ Duet/ kl-div / NT-Xent Loss:
 
 python train_duets.py --task [TASK_NAME] --source_domain [SOURCE_DOMAIN] --target_domain [TARGET_DOMAIN] --loss [LOSS] --samples_per_class [SAMPLES_PER_CLASS]
 
+
+Arguments:
+
 TASK_NAME: 'digit' or 'office'
 
 SOURCE_DOMAIN: if task is digit: 'MNIST' or 'USPS'; if task is office: 'amazon', 'dslr' or 'webcam'
